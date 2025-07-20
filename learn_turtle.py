@@ -37,26 +37,11 @@ t.end_fill()
 ## Challenge to draw a house
 t.reset()
 # House body
-t.fillcolor("yellow")
-t.begin_fill()
-for i in range(2):
-    t.forward(100)
-    t.right(90)
-    t.forward(70)
-    t.right(90)
-t.end_fill()
-# Reset tutle
-t.left(90)
+
+# Reset turtle
+
 # Roof
-t.fillcolor("red")
-t.begin_fill()
-t.right(51.34)
-t.forward(64.031)
-t.right(77.32)
-t.forward(64.031)
-t.right(141.34)
-t.forward(100)
-t.end_fill()
+
 
 # Finish drawing but keep window open
 done()
